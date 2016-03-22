@@ -9,7 +9,8 @@
 
 Variables hold data of any type in memory. In Python, there are a few different variable types we'll be going over. Note that here "type" does not mean "data type". Unlike in languages such as C, C++, and Objective-C, data types in Python do not need to be explicitly declared when variables are assigned.
 
-We're going to focus here on three variable types. There are five total that are used in Python, but we will focus on the other two later when we learn about classes and object-orientation.
+We're going to focus here on two main variable types.
+
 
 ## Local Variables
 
@@ -41,6 +42,7 @@ def my_function():
     my_variable = "The entire program knows about me!"
 
 print my_variable
+=> "The entire program knows about me!"
 ```
 
 Global variables should be used **very** sparingly, if at all. The concern with global variables is that because of their global reach, they can "break encapsulation"—if any method can modify a global variable, then any other place that relies on that variable can work in unpredictable ways. This can be very difficult to debug.
