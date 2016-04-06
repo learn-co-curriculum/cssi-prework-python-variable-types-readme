@@ -2,8 +2,8 @@
 
 ## Objectives
 
-1. Learn about the different types of variables in Python
-2. Learn about the scoping of these variable types
+1. Describe the different types of variables in Python
+2. Explain scoping of these above variable types
 
 ## Introduction
 
@@ -22,7 +22,7 @@ languages = ["Python", "JavaScript", "C", "Ruby"]
 
 Local variables are distinguished from other types of variables primarily by their "scope". Local variables have a "local scope", meaning that their definitions remain where they are declared.
 
-If we define a variable within a function definition, only the function knows about that variable. Any type of reference to that local variable will result in an error;
+If we define a variable within a function definition, only the function knows about that variable. Any type of reference to that local variable outside of that function will result in an error;
 
 ```python
 def my_function():
