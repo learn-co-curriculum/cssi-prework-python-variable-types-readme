@@ -7,10 +7,7 @@
 
 ## Introduction
 
-Variables hold data of any type in memory. In Python, there are a few different variable types we'll be going over. Note that here "type" does not mean "data type". Unlike in languages such as C, C++, and Objective-C, data types in Python do not need to be explicitly declared when variables are assigned.
-
-We're going to focus here on two main variable types.
-
+Variables hold data of any type in memory. In Python, variables can be *local* or *global*. Let's look at the differences between these types of variable:
 
 ## Local Variables
 
