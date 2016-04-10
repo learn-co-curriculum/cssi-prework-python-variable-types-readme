@@ -17,7 +17,7 @@ You should already be familiar with declaring local variables. They're written m
 languages = ["Python", "JavaScript", "C", "Ruby"]
 ```
 
-Local variables are distinguished from other types of variables primarily by their "scope". Local variables have a "local scope", meaning that their definitions remain where they are declared.
+Local variables are distinguished from other types of variables primarily by their "scope". Local variables have a "local scope", meaning that their definitions remain where they are declared. We generally want treat functions as 'black boxes': they take in and return data and we shouldn't care what happens inside them (unless we're writing the function itself). For that reason we use local variables - the rest of our program does not need to access them.
 
 If we define a variable within a function definition, only the function knows about that variable. Any type of reference to that local variable outside of that function will result in an error;
 
@@ -43,3 +43,6 @@ print my_variable
 ```
 
 Global variables should be used **very** sparingly, if at all. The concern with global variables is that because of their global reach, they can "break encapsulation"—if any method can modify a global variable, then any other place that relies on that variable can work in unpredictable ways. This can be very difficult to debug.
+
+## More
+[Python Variable Scope Notes](http://www.saltycrane.com/blog/2008/01/python-variable-scope-notes/)
